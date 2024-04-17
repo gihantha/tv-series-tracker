@@ -1,5 +1,6 @@
 # TV Series Tracker
-This is an amazing project! I've been looking for a tool like this to manage my TV series addiction. The features look fantastic, especially the personalized recommendations and notification system. I can't wait to contribute to this project and help make it even better. Keep up the great work!
+
+TV series tracker build with MERN stack
 
 ## Screenshots
 
