@@ -4,7 +4,7 @@ import "./Sidebar.css";
 import next_page_button_icon from "../../Assets/next page.png";
 import filter_button_icon from "../../Assets/filter button.png";
 import advanced_button_icon from "../../Assets/advanced icon.png";
-import sidebar_image from "../../Assets/joker.jpg";
+import sidebar_poster from "../../Assets/joker.jpg";
 
 const Sidebar = () => {
   return (
@@ -35,7 +35,7 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="sidebar-img">
-        <img src={sidebar_image} alt="sidebar image" />
+        <img src={sidebar_poster} alt="sidebar poster" />
       </div>
     </div>
   );

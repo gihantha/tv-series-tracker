@@ -1,0 +1,42 @@
+.footer{
+   
+
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.footer-menu{
+    display: flex;
+    /* font-size: 1.25rem; */
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    list-style: none;
+    gap: 3.125 rem;
+    text-indent: 2rem;
+    font-variant-caps: all-petite-caps;
+}
+
+.footer-contact-us{
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    align-items: right;
+
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-copyright{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
