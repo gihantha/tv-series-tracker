@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.navbar p{
+    /* font-family: "Micro 5 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+
+}
+
+.navbar-logo {
+    display: block;
+    width: 4.0625rem;
+    height: 4.0625 rem;
+    /* font-family: "Micro 5 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    
+}
+
+.nav-menu-right {
+    display: flex;
+    font-size: 1.25rem;
+    cursor: pointer;
+    align-items: center;
+    list-style: none;
+    gap: 3.125 rem;
+    text-indent: 2rem;
+    font-variant-caps: all-petite-caps;
+
+}
+
+.nav-menu-left {
+    display: flex;
+    text-indent: 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    align-items: center;
+    list-style: none;
+    gap: 3.125 rem;
+    font-variant-caps: all-petite-caps;
+
+}
+.navbar-serach-icon{
+    width: 2rem;
+    
+}
+
+.nav-user-icon{
+    display: block;
+    width: 4.0625rem;
+    height: 4.0625 rem;
+    align-items: center;
+}
+
+.nav-user p{
+    font-family: fantasy;
+    font-size: 1.25rem;
+    
+    display: flex;
+}
+
+.nav-user{
+    display: flex;
+    cursor: pointer;
+    /* flex-direction: column; */
+}
