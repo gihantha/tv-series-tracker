@@ -1,0 +1,15 @@
+.displaycard{
+    /* display: flex; */
+}
+
+.displaycard img{
+    width: fit-content;
+}
+
+.displaycard-year-and-title{
+    display: flex;
+}
+
+.displaycard-banner{
+    width: 20rem;
+}
