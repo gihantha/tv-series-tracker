@@ -1,18 +1,26 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+
+
 import "./App.css";
-import DisplayCard from "./Components/DisplayCard/DisplayCard";
-import Footer from "./Components/Footer/Footer";
-import Navbar from "./Components/Navbar/Navbar";
-import Sidebar from "./Components/Sidebar/Sidebar";
+
+import AddShow from './Pages/AddShow/AddShow';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="hero-container">
-        <Sidebar />
-        <DisplayCard />
-      </div>
-      <Footer />
+      <BrowserRouter>
+      
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/add-a-show' element={<AddShow/>} />
+
+      </Routes>
+      
+      
+      </BrowserRouter>
+      
     </div>
   );
 }

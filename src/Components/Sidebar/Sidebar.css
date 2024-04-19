@@ -30,8 +30,7 @@
 }
 .sidebar{
     padding: 2rem;
-    position: left;
-    max-width: 16rem;
+    width: 16rem;
 }
 
 .sidebar p{

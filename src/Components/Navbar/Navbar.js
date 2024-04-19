@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Navbar.css";
 import logo from "../../Assets/logo.png";
 import search from "../../Assets/search-icon.png";
 import userIcon from "../../Assets/user-logo.png";
+import AddShow from "../../Pages/AddShow/AddShow";
 const Navbar = () => {
+
+
   return (
     <div className="navbar">
       <div className="navbar-search">
@@ -18,13 +22,17 @@ const Navbar = () => {
         <li>Calendar</li>
       </ul>
       <div className="navbar-logo">
+        <Link to ='/'>
         <img src={logo} alt="logo" />
+        </Link>
+        
       </div>
       <p>Watch Dogs</p>
       <ul className="nav-menu-right">
         <li>Discover</li>
         <li>Apps</li>
         <li>VIP</li>
+        <li><Link to='/add-a-show'>Add a show</Link></li>
       </ul>
       <div className="nav-user">
         <div className="nav-user-icon w-1/3">
